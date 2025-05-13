@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script defer src="script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="blur-wrap">
+            <!--Navbar-->
+            <nav id="nav-list" class="nav-list">
+                <!--Logo-->
+                <a href="#" ><img class="logo" src="src/test-logga.svg" alt="test-logga"></a>
+                <!--Links-->
+                <a href="#" class="nav-content">PRODUKTER</a>
+                <a href="#" class="nav-content">OM OSS</a>
+                <a href="#" class="nav-content">BESTÄLLNING</a>
+                <!--Login-->
+                <div class="nav-right">
+                    <p id="login-message" class="login-message"></p>
+                    <button id="login-btn" class="nav-content-right">LOGGA IN</button>
+                </div>
+                <button id="nav-close" class="nav-closer">Visa Meny</button>
+            </nav>
+            <main class="home-main">
+                <!--Main Textbox-->
+                <div class="text-box">
+                    <h2 class="header-small">ETT NYTT SÄTT ATT UPPTÄCKA</h2>
+                    <h1 class="header-big">Silkeslena prudkter med glansiga detaljer</h1>
+                </div>
+        </div>
+            <!--Login Form-->
+            <div id="login" class="form">
+                <form class="login-form">
+                    <!--Close Button-->
+                    <div class="form-closer">
+                        <button id="form-close"><img src="src/close-symbol.svg"></button>
+                    </div>
+                    <!--Form Header-->
+                    <div class="form-text-box">
+                        <h1 class="form-header-big">Logga in</h1>
+                        <h2 class="form-header-small">Använd ditt namn för att logga in</h2>
+                    </div>
+                    <!--Form Input-->
+                    <div class="login-box">
+                        <input type="text" placeholder="Namn" id="name-input" class="form-input">
+                        <button type="submit" class="form-submit">Logga in</button>
+                    </div>
+                    <!--Form Bottom Text-->
+                    <div class="form-bottom">
+                        <span class="form-bottom-text">Genom att logga in godkänner du <a href="#">våra vilkor</a></span>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>
